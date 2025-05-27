@@ -39,7 +39,7 @@ The current component datasets and token counts per dataset are as follows:
 
 The combined dataset takes up about 6 GB when stored as `.parquet` files and roughly 34 GB when stored as memory-mapped `.arrow` files (see [this](https://stackoverflow.com/a/56481636) for an explanation of the differences between these file formats). The HF `datasets` library uses `.arrow` files for local caching, so you will need at least this much free disk space in order to be able to utilize it. 
 
-## Prerequisites
+## Requirements
 Please see the auto-generated [`requirements.txt`](requirements.txt) file.
 
 ## Creating the component datasets
