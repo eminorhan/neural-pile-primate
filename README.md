@@ -69,7 +69,7 @@ def _default_backend_factory() -> requests.Session:
 or something along these lines (you can play with the `Retry` settings). This will prevent the premature termination of the job when faced with connection issues. 
 
 ## Visualizing the datasets
-[`visualize_datasets.py`](visualize_datasets.py) provides some basic functionality to visualize random samples from the datasets, *e.g.*:
+[`visualize_dataset.py`](visualize_dataset.py) provides some basic functionality to visualize random samples from the datasets, *e.g.*:
 ```python
 python visualize_datasets.py --repo_name 'eminorhan/xiao' --n_examples 6
 ```
